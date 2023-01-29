@@ -9,32 +9,56 @@ Write your own steps here.
 ### Step 2:
 
 ## Code:
-## homepage
+### Home
+```html
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SEC</title>
+</head>
+<body>
+
+<img src="/static/img/sec.png" usemap="#MyCity" height="600" width="1200">
+<map name="MyCity">
+<area  alt="" title="ECE" href="Ece.html" shape="rect" coords="136,503,429,679"  />
+<area  alt="" title="ADMIN" href="admin.html" shape="rect" coords="446,521,684,819">
+<area  alt="" title="CSE" href="cse.html" shape="rect" coords="695,501,883,808"  />
+<area  alt="" title="SAIL" href="sail.html" shape="rect" coords="789,257,1084,460"    />
+<area  alt="" title="EEE" href="eee.html" shape="poly" coords="132,69,398,224,369,376,82,456,65,349,78,201"     />
+</map>
+</center>
+</body>
+</html>
+```
+### sail
 ```html
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            homepage
-        </title>
-    </head>
-    <body>
-          <img id="Image-Maps-Com-image-maps-2023-01-29-095911" src="/static/img/sec.png" border="0" width="1150" height="860" orgWidth="1150" orgHeight="860" usemap="#image-maps-2023-01-29-095911" alt="" />
-<map name="image-maps-2023-01-29-095911" id="ImageMapsCom-image-maps-2023-01-29-095911">
-<area  alt="" title="ECE" href="Ece.html" shape="rect" coords="136,503,429,679" style="outline:none;" target="_self"     />
-<area  alt="" title="ADMIN" href="admin.html" shape="rect" coords="446,521,684,819" style="outline:none;" target="_self"     />
-<area  alt="" title="CSE" href="cse.html" shape="rect" coords="695,501,883,808" style="outline:none;" target="_self"     />
-<area  alt="" title="SAIL" href="sail.html" shape="rect" coords="789,257,1084,460" style="outline:none;" target="_self"     />
-<area shape="rect" coords="1148,858,1150,860" alt="Image Map" style="outline:none;" title="Image Map" href="https://www.image-maps.com/" />
-<area  alt="" title="EEE" href="eee.html" shape="poly" coords="132,69,398,224,369,376,82,456,65,349,78,201" style="outline:none;" target="_self"     />
-</map>
-
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALI</title>
+    <style>
+        h1{
+            color: blue;
+        }
+        p{
+            font-size: larger; 
+        }
+    </style>
+</head>
+<body>
+    <h1>About SAIL</h1>
+    <hr color="green">
+    <p><b>SAIL stands for Saveetha Academic Infotech Library which was inaugurated in the year 2020. It is an high-tech library facility housing around 20000 books in a thematic atmosphere to engage and promote the habit of reading amongst graduate students.</b></p>
+    <hr color="green">
+</body>
 </html>
-
 ```
-## EEE
+### EEE
 ```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,74 +87,8 @@ Write your own steps here.
 </html>
 
 ```
-## Ece
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ECE</title>
-    <style>
-        h1{
-            color: blue;
-        }
-        p{
-            font-size: larger;
-        }
-    </style>
-</head>
-<body>
-    <h1>About ECE block</h1>
-    <hr color="green">
-    <p><b>ECE is the engineering course to learn about electronics and communications. Its implementation is wide spread, and it is almost found in all streams.
 
-        It is hoped that this would produce engineers who would transform the face of modern electronics/computer world.
-        
-        The primary objective of this department is to provide Quality education to the students, to mould them into good citizens of the country and make them surge ahead with knowledge and confidence to face the competitive world.
-        
-        The ECE Department is one of the strongest department in the campus and stands high in its objectives and outcomes. The Department is technically storage with well experienced labs and qualified  staff members.
-        
-        The Department has well equipped laboratories, library and e-classroom.
-        
-        The department has established eight laboratories namely Electronics devices &circuits lab ,Analog Communication laboratory, Electronic circuits &Pulse Circuits laboratory, Basic simulation lab , Integrated Circuits & Applications laboratory, Microprocessor & Micro controller laboratory, Electronic Computer Aided design laboratory, Vlsi&e-cad laboratory and Microwave & Digital communications laboratory, which are fully equipped with test & measuring equipment and trainers specially designed for lab work.
-        
-        Seminars, Workshops and Technical Symposia are conducted in the department to keep faculty and students updated with latest developments in various technologies.</b></p>
-        <hr color="green">
-</body>
-</html>
-
-```
-##admin
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin</title>
-    <style>
-        h1{
-            color: blue;
-        }
-        p{
-            font-size: larger;
-        }
-    </style>
-</head>
-<body>
-    <H1>ABOUT ADMIN BLOCK</H1>
-    <hr color="green">
-    <p> <b> The Administration Blocks are fully computerized with 24 hours broad band access. Students and parents have access to the office for their admission, fees payment, inquiry, student registration, and all other educational needs. The office also offers services to staff members.The Administrative Block of the colleges is a well-planned and spacious building that consists of a vast offices of entire Top-Management team, academic team, principal offices, account section, establishment sections, exam sections and all departmental offices, stores , committee room with video-conferencing facility.</b></p>
-    <hr color="green">
-
-</body>
-</html>
-
-```
-##cse
+### CSE
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -158,7 +116,7 @@ Write your own steps here.
 </body>
 </html>
 ```
-##sail
+### ADMIN
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -166,36 +124,45 @@ Write your own steps here.
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SALI</title>
+    <title>Admin</title>
     <style>
         h1{
             color: blue;
         }
         p{
-            font-size: larger; 
+            font-size: larger;
         }
     </style>
 </head>
 <body>
-    <h1>About SAIL</h1>
+    <H1>ABOUT ADMIN BLOCK</H1>
     <hr color="green">
-    <p><b>SAIL stands for Saveetha Academic Infotech Library which was inaugurated in the year 2020. It is an high-tech library facility housing around 20000 books in a thematic atmosphere to engage and promote the habit of reading amongst graduate students.</b></p>
+    <p> <b> The Administration Blocks are fully computerized with 24 hours broad band access. Students and parents have access to the office for their admission, fees payment, inquiry, student registration, and all other educational needs. The office also offers services to staff members.The Administrative Block of the colleges is a well-planned and spacious building that consists of a vast offices of entire Top-Management team, academic team, principal offices, account section, establishment sections, exam sections and all departmental offices, stores , committee room with video-conferencing facility.</b></p>
     <hr color="green">
+
 </body>
 </html>
+
 ```
 ## Output:
+![Screenshot_20230129_061638](https://user-images.githubusercontent.com/120623104/215327772-a3e0c48c-7ec0-4b58-8696-420f9b8662fa.png)
+![Screenshot_20230129_061648](https://user-images.githubusercontent.com/120623104/215327776-f373662e-0e61-49ae-8535-3849f83d51f8.png)
+![Screenshot_20230129_061756](https://user-images.githubusercontent.com/120623104/215327778-59db5379-c3c0-4c15-843f-ce84ea5b3bdb.png)
+![Screenshot_20230129_061802](https://user-images.githubusercontent.com/120623104/215327781-2795ec4c-f436-404e-a40a-6d094aae27cf.png)
+![Screenshot_20230129_061808](https://user-images.githubusercontent.com/120623104/215327783-fa95e8ba-5fd0-458b-bb45-ba9126d649c6.png)
+![Screenshot_20230129_061814](https://user-images.githubusercontent.com/120623104/215327792-fb86ed0f-c88e-4d61-9803-7761998801a2.png)
 
-![Screenshot from 2023-01-29 18-08-49](https://user-images.githubusercontent.com/120623104/215327360-b927edbb-8890-4b8d-9512-4df41b7a0050.png)
 
-![Screenshot from 2023-01-29 18-09-23](https://user-images.githubusercontent.com/120623104/215327426-c6b22891-3b5e-471d-ad22-4ad572377b6c.png)
 
-![Screenshot from 2023-01-29 18-09-50](https://user-images.githubusercontent.com/120623104/215327443-4c29a5b3-7c40-43cb-bfee-356bc201d0d7.png)
-![Screenshot from 2023-01-29 18-10-06](https://user-images.githubusercontent.com/120623104/215327449-7b72bc3a-b633-409b-a6f9-587d96f6b46e.png)
-![Screenshot from 2023-01-29 18-10-19](https://user-images.githubusercontent.com/120623104/215327459-d76bd235-352f-41db-8581-df8315192d56.png)
 
-![Screenshot from 2023-01-29 18-10-35](https://user-images.githubusercontent.com/120623104/215327477-f79c4df1-c1d5-4e01-8e5d-1279417aa267.png)
+
+
+
+
+
+
+
 
 
 ## Result:
-code succesfully verifed
+Thus a website is developed to display details about the places around me
